@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Provider store={store}>
-        <Container maxWidth="xl" he>
+        <Container maxWidth="xl" >
           <Typography component="h1" variant='h2' align='center'>Habit Tracker</Typography>
           <Grid container alignItems="start" spacing={2}>
             <Grid item xs={12} sm={8}>
